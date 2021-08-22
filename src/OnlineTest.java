@@ -92,7 +92,7 @@ class OnlineTest extends JFrame implements ActionListener {
             if (check())
                 count = count + 1;
             current++;
-            JOptionPane.showMessageDialog(this, "correct answers= " + count);
+            JOptionPane.showMessageDialog(this, "correct answers = " + count);
             System.exit(0);
         }
     }
